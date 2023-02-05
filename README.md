@@ -1,1 +1,1 @@
-CodeClause Internship Tasks
+CodeClause Virtual Internship Tasks
