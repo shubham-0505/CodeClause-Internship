@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color:rgb(102, 179, 255);
+    background-repeat:initial;
+}
+h1{
+    color:#ffffff;
+    font-family:"Consolas";
+    text-align:center;
+    font-weight:500;
+}
+.container1,.container2,.container3,.container4{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:8px;
+    height:8rem;
+    width:32rem;
+    background-color:#ffffff;
+    margin:auto;
+}
+.input{
+    font-family:"Poppins";
+    font-size:1.4rem;
+    float:left;
+    text-align:center;
+    /* padding:20px 20px; */
+}
+#meter,#kilometer,#feet,#inch,#kilogram,#pounds,#megabyte,#gigabyte{
+    padding:10px 15px;
+}
+@media screen and (min-device-width: 400px) and (max-device-width: 700px) { 
+    .container1,.container2,.container3,.container4{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:8px;
+        height:8rem;
+        width:22rem;
+        background-color:white;
+        margin:auto;
+    }
+    .input{
+        font-family:"Poppins";
+        font-size:1rem;
+        float:left;
+        text-align:center;
+        /* padding:20px 20px; */
+    }
+    #meter,#kilometer,#feet,#inch,#kilogram,#pounds,#megabyte,#gigabyte{
+        padding:0.8px 0.3px 1px;
+    }
+}
+
+
+
